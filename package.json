@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/KovalevskaOlga/HW-JS-7/issues"
   },
-  "homepage": "https://github.com/KovalevskaOlga/HW-JS-7#readme",
+  "homepage": "kovalevskaolga.github.io/HW-JS-7/",
   "devDependencies": {
     "@partiellkorrekt/parcel-transformer-handlebars": "^1.0.5",
     "parcel": "^2.15.0",
