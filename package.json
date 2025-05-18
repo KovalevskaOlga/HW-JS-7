@@ -22,12 +22,15 @@
   "homepage": "kovalevskaolga.github.io/HW-JS-7/",
   "devDependencies": {
     "@partiellkorrekt/parcel-transformer-handlebars": "^1.0.5",
+    "gulp-header": "^1.8.9",
+    "handlebars-helpers": "^0.10.0",
     "parcel": "^2.15.0",
     "parcel-transformer-hbs": "^1.0.4",
     "posthtml-include": "^2.0.1"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
-    "handlebars": "^4.7.8"
+    "handlebars": "^4.7.8",
+    "lodash.template": "^4.5.0"
   }
 }

@@ -1,22 +1,58 @@
- {
- "products": [
-  {
-    "id": "1",
-    "name": "Laptop",
-    "price": "1500",
-    "description": "A high-performance laptop for all your needs."
-  },
-  {
-    "id": "2",
-    "name": "Smartphone",
-    "price": "700",
-    "description": "A modern smartphone with an excellent camera."
-  },
-  {
-    "id": "3",
-    "name": "Headphones",
-    "price": "200",
-    "description": "Noise-cancelling headphones for better focus."
-  }
-]
- }
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "price": "150$0",
+      "description": "A high-performance laptop for all your needs."
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "price": "700$",
+      "description": "A modern smartphone with an excellent camera."
+    },
+    {
+      "id": "3",
+      "name": "Headphones",
+      "price": "200$",
+      "description": "Noise-cancelling headphones for better focus."
+    },
+    {
+      "id": "4",
+      "name": "Smartwatch",
+      "price": "250$",
+      "description": "A stylish smartwatch with fitness tracking features."
+    },
+    {
+      "id": "5",
+      "name": "Tablet",
+      "price": "600$",
+      "description": "A lightweight tablet perfect for work and entertainment."
+    },
+    {
+      "id": "6",
+      "name": "Wireless Mouse",
+      "price": "50$",
+      "description": "An ergonomic wireless mouse with long battery life."
+    },
+    {
+  "id": "7",
+  "name": "Gaming Keyboard",
+  "price": "120$",
+  "description": "Mechanical keyboard with RGB backlight and programmable keys."
+},
+{
+  "id": "8",
+  "name": "4K Monitor",
+  "price": "400$",
+  "description": "Ultra HD monitor with vibrant colors and high refresh rate."
+},
+{
+  "id": "9",
+  "name": "External SSD",
+  "price": "150$",
+  "description": "Fast and portable external SSD with USB-C support."
+}
+  ]
+}

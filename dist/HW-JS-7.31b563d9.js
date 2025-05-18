@@ -680,7 +680,7 @@ const body = document.querySelector("body");
 body.innerHTML = (0, _productsHbsDefault.default)((0, _productsJsonDefault.default));
 
 },{"./data-base/products.json":"b5Rdc","./templates/products.hbs":"dZaV6","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"b5Rdc":[function(require,module,exports,__globalThis) {
-module.exports = JSON.parse("{\"products\":[{\"id\":\"1\",\"name\":\"Laptop\",\"price\":\"1500\",\"description\":\"A high-performance laptop for all your needs.\"},{\"id\":\"2\",\"name\":\"Smartphone\",\"price\":\"700\",\"description\":\"A modern smartphone with an excellent camera.\"},{\"id\":\"3\",\"name\":\"Headphones\",\"price\":\"200\",\"description\":\"Noise-cancelling headphones for better focus.\"}]}");
+module.exports = JSON.parse("{\"products\":[{\"id\":\"1\",\"name\":\"Laptop\",\"price\":\"150$0\",\"description\":\"A high-performance laptop for all your needs.\"},{\"id\":\"2\",\"name\":\"Smartphone\",\"price\":\"700$\",\"description\":\"A modern smartphone with an excellent camera.\"},{\"id\":\"3\",\"name\":\"Headphones\",\"price\":\"200$\",\"description\":\"Noise-cancelling headphones for better focus.\"},{\"id\":\"4\",\"name\":\"Smartwatch\",\"price\":\"250$\",\"description\":\"A stylish smartwatch with fitness tracking features.\"},{\"id\":\"5\",\"name\":\"Tablet\",\"price\":\"600$\",\"description\":\"A lightweight tablet perfect for work and entertainment.\"},{\"id\":\"6\",\"name\":\"Wireless Mouse\",\"price\":\"50$\",\"description\":\"An ergonomic wireless mouse with long battery life.\"},{\"id\":\"7\",\"name\":\"Gaming Keyboard\",\"price\":\"120$\",\"description\":\"Mechanical keyboard with RGB backlight and programmable keys.\"},{\"id\":\"8\",\"name\":\"4K Monitor\",\"price\":\"400$\",\"description\":\"Ultra HD monitor with vibrant colors and high refresh rate.\"},{\"id\":\"9\",\"name\":\"External SSD\",\"price\":\"150$\",\"description\":\"Fast and portable external SSD with USB-C support.\"}]}");
 
 },{}],"dZaV6":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -693,46 +693,60 @@ const templateFunction = (0, _handlebarsDefault.default).template({
             if (Object.prototype.hasOwnProperty.call(parent, propertyName)) return parent[propertyName];
             return undefined;
         };
-        return "    <li>\r\n        <h2>" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        return "    <li class=\"item\">\r\n        <h2 class=\"name\">" + alias4((helper = (helper = lookupProperty(helpers, "name") || (depth0 != null ? lookupProperty(depth0, "name") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "name",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
                     "line": 4,
-                    "column": 12
+                    "column": 25
                 },
                 "end": {
                     "line": 4,
-                    "column": 20
+                    "column": 33
                 }
             }
-        }) : helper)) + "</h2>\r\n        <p>" + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + "</h2>\r\n        <h3 class=\"id\">" + alias4((helper = (helper = lookupProperty(helpers, "id") || (depth0 != null ? lookupProperty(depth0, "id") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+            "name": "id",
+            "hash": {},
+            "data": data,
+            "loc": {
+                "start": {
+                    "line": 5,
+                    "column": 23
+                },
+                "end": {
+                    "line": 5,
+                    "column": 29
+                }
+            }
+        }) : helper)) + "</h3>\r\n        <p class=\"price\">" + alias4((helper = (helper = lookupProperty(helpers, "price") || (depth0 != null ? lookupProperty(depth0, "price") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "price",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
-                    "line": 5,
-                    "column": 11
+                    "line": 6,
+                    "column": 25
                 },
                 "end": {
-                    "line": 5,
-                    "column": 20
+                    "line": 6,
+                    "column": 34
                 }
             }
-        }) : helper)) + "</p>\r\n        <p>" + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
+        }) : helper)) + "</p>\r\n        <p class=\"desc\">" + alias4((helper = (helper = lookupProperty(helpers, "description") || (depth0 != null ? lookupProperty(depth0, "description") : depth0)) != null ? helper : alias2, typeof helper === alias3 ? helper.call(alias1, {
             "name": "description",
             "hash": {},
             "data": data,
             "loc": {
                 "start": {
-                    "line": 6,
-                    "column": 11
+                    "line": 7,
+                    "column": 24
                 },
                 "end": {
-                    "line": 6,
-                    "column": 26
+                    "line": 7,
+                    "column": 39
                 }
             }
         }) : helper)) + "</p>\r\n    </li>\r\n";
@@ -758,7 +772,7 @@ const templateFunction = (0, _handlebarsDefault.default).template({
                     "column": 2
                 },
                 "end": {
-                    "line": 8,
+                    "line": 9,
                     "column": 11
                 }
             }
