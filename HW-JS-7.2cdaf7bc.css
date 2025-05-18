@@ -1,0 +1,70 @@
+h1 {
+  color: purple;
+}
+
+body {
+  background: #fff;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.products_list {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  text-align: center;
+  box-sizing: border-box;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 30%;
+  min-width: 250px;
+  padding: 15px;
+  font-size: 14px;
+  transition: transform .3s, box-shadow .3s;
+  position: relative;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px #0000001a;
+}
+
+.name {
+  color: #222;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.id {
+  color: #999;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: 17px;
+}
+
+.price {
+  color: #27ae60;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.desc {
+  color: #444;
+  font-size: 14px;
+}
+/*# sourceMappingURL=HW-JS-7.2cdaf7bc.css.map */
